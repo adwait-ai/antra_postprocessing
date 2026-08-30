@@ -1,0 +1,13 @@
+# Example config for antra-postprocessing.
+# Directory names (not full paths) are matched against the closest ancestor
+# folder of each file, relative to the scanned root.
+
+preferred_directories:
+
+least_preferred_directories:
+  - Liked Songs
+
+extension_priority:
+  - mp3
+  - flac
+  - m4a
